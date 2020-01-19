@@ -1,3 +1,18 @@
+### Interfaz de Usuario para el consumo de la API de Marvel, con la cual podremos obtener todos los heroes del mundo de comic de Marvel.
+
+La UI esta echa en JS usando la libreria de React JS, que nos facilita el front end para la creacion de interfaces de usuario, por medio de la creacion de componentes reutilizables e interactivos.
+
+Los componentes son del tipo stateless y por medio de los hooks accedemos a los ciclos de vida y a su estado propio sin necesidad de usar clases.
+
+Para poder tener un estado global de la aplicacion, se implementa el uso de Context de React, el cual nos permite pasar datos que son considerados globales, a todo nuestro arbol de componentes sin necesidad de usar Redux y algun midellware, y ademas los compoenentes hijos podran alterar dichos datos globales sin ningun problema.
+
+En el Context, se tiene todas las funciones, ya sea llamadas a la api u otras, y los distintos estados de la aplicacion, estos seran pasados por medio del Context.Provider, y luego podran ser accedidas por el compoenente usando el hook useContext, accediendo solo a aquellas que dicho componente empleara.
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
