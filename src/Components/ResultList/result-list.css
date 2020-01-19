@@ -1,0 +1,35 @@
+.card-list {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1 ;
+}
+
+.comic-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.comic-list .comic-entry{
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+}
+.comic-list .image-container {
+  margin-right: 1rem;
+}
+
+.comic-list .comic-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.comic-list .comic-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  width: 100% !important;
+}
