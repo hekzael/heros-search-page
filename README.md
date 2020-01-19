@@ -8,7 +8,9 @@ Para poder tener un estado global de la aplicacion, se implementa el uso de Cont
 
 En el Context, se tiene todas las funciones, ya sea llamadas a la api u otras, y los distintos estados de la aplicacion, estos seran pasados por medio del Context.Provider, y luego podran ser accedidas por el compoenente usando el hook useContext, accediendo solo a aquellas que dicho componente empleara.
 
+Para mostrar la informacion de cada heroe y los comic donde participa cada heroe, se implementa un modal usando portales el cual se configuro para montarl cualquier modal que necesitemos.
 
+La UI puede mostrarnos una cantidad de 20 heroes y podemos obtener 20 mas al precionar el boton Load More, y estos se mostraran a contunuacion, tambien se puede buscar heroes con nombres que comiencen por la cadena de caracteres especificada en la barra de busqueda, y asi mismo poder obtener mas heroes por dicha cadena.
 
 
 
