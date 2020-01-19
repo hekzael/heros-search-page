@@ -1,16 +1,16 @@
 ### Interfaz de Usuario para el consumo de la API de Marvel, con la cual podremos obtener todos los heroes del mundo de comic de Marvel.
 
-La UI esta echa en JS usando la libreria de React JS, que nos facilita el front end para la creacion de interfaces de usuario, por medio de la creacion de componentes reutilizables e interactivos.
+La UI esta hecha en JS usando la librería de React JS, que nos facilita el front end para la creación de interfaces de usuario, por medio de la creacion de componentes reutilizables e interactivos.
 
 Los componentes son del tipo stateless y por medio de los hooks accedemos a los ciclos de vida y a su estado propio sin necesidad de usar clases.
 
-Para poder tener un estado global de la aplicacion, se implementa el uso de Context de React, el cual nos permite pasar datos que son considerados globales, a todo nuestro arbol de componentes sin necesidad de usar Redux y algun midellware, y ademas los compoenentes hijos podran alterar dichos datos globales sin ningun problema.
+Para poder tener un estado global de la aplicación, se implementa el uso de Context de React, el cual nos permite pasar datos que son considerados globales, a todo nuestro arbol de componentes sin necesidad de usar Redux y algún midellware, y ademas los componentes hijos podrán alterar dichos datos globales sin ningún problema.
 
-En el Context, se tiene todas las funciones, ya sea llamadas a la api u otras, y los distintos estados de la aplicacion, estos seran pasados por medio del Context.Provider, y luego podran ser accedidas por el compoenente usando el hook useContext, accediendo solo a aquellas que dicho componente empleara.
+En el Context, se tiene todas las funciones, ya sea llamadas a la api u otras, y los distintos estados de la aplicación, estos serán pasados por medio del Context.Provider, y luego podrán ser accedidas por el componente usando el hook useContext, accediendo solo a aquellas que dicho componente empleara.
 
-Para mostrar la informacion de cada heroe y los comic donde participa cada heroe, se implementa un modal usando portales el cual se configuro para montarl cualquier modal que necesitemos.
+Para mostrar la información de cada héroe y los comics donde participa cada héroe, se implementa un modal usando portales el cual se configuro para montar cualquier modal que necesitemos.
 
-La UI puede mostrarnos una cantidad de 20 heroes y podemos obtener 20 mas al precionar el boton Load More, y estos se mostraran a contunuacion, tambien se puede buscar heroes con nombres que comiencen por la cadena de caracteres especificada en la barra de busqueda, y asi mismo poder obtener mas heroes por dicha cadena.
+La UI puede mostrarnos una cantidad de 20 héroes y podemos obtener 20 más al presionar el botón Load More, y estos se mostraran a continuación, también se puede buscar héroes con nombres que comiencen por la cadena de caracteres especificada en la barra de búsqueda, y así mismo poder obtener más héroes por dicha cadena.
 
 
 
